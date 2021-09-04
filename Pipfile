@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+python-dotenv = "*"
+flask-sqlalchemy = "*"
+flask-wtf = "*"
+pymysql = "*"
+flask-migrate = "*"
+pandas = "*"
+flask-whooshee = "*"
+flask-apscheduler = "*"
+pyecharts = "==1.9.0"
+echarts-countries-pypkg = "*"
+echarts-china-provinces-pypkg = "*"
+echarts-china-cities-pypkg = "*"
+echarts-china-counties-pypkg = "*"
+echarts-china-misc-pypkg = "*"
+
+[dev-packages]
+watchdog = "*"
+selenium = "==3.6.0"
+
+[requires]
+python_version = "3.7"
